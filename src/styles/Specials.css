@@ -15,6 +15,7 @@
     color: #333;
     margin-bottom: 1rem;
   }
+
   
   .menu-button {
     font-family: 'Karla', sans-serif;
@@ -52,6 +53,30 @@
   
   @media (min-width: 1440px) {
     .specials {
-      padding: 10rem 16rem;
+      height: auto;
+      padding: 9rem 9rem;
     }
+    .specials-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    
+  }
+
+  @media (min-width: 1920px) {
+    .specials {
+      height: auto;
+      padding: 9rem 9rem;
+    }
+    .specials-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    
   }

@@ -1,6 +1,6 @@
 /*HERO */
 .hero {
-    height: 100vh;
+   
     padding: 8rem 2rem;
     background-color: #495e57;
     display: grid;
@@ -32,8 +32,8 @@
   }
   
   .image-container {
-    width: 250px;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    max-width: 100%;
   }
   
   .display-image {
@@ -41,6 +41,7 @@
     height: 250px;
     object-fit: cover;
     border-radius: 1rem;
+    max-width: 100%;
   }
   
   .reserve-button {
@@ -51,6 +52,7 @@
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
+    max-width: 100%;
   }
   
   .reserve-button:hover {
@@ -64,6 +66,7 @@
       text-align: left;
       justify-content: center;
       align-items: center;
+      max-width: 100%;
     }
   
     .display-title {

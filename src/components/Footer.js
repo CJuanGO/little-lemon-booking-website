@@ -1,5 +1,5 @@
 import React from 'react';
-import restaurant from '../assets/restaurant.jpg';
+import restaurant from '../assets/Asset-204x.png';
 import '../styles/Footer.css';
 import { links, contacts, socials } from '../data';
 import { Link as LinkS } from 'react-scroll';
